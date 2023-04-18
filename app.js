@@ -12,7 +12,7 @@ app.use(express.json())
 app.get('/',(req,res)=>{
     let data = {
         isSuccess: false,
-        errorMessage: "Convert YT to Mp3",
+        errorMessage: "i.e.: https://www.youtube.com/watch?v=GhQxrCrVSyw <br><br> Paste this: GhQxrCrVSyw ",
         song_link: null,
         songTitle: null
     }
